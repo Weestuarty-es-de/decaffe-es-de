@@ -645,9 +645,9 @@
         <view name="gamelist">
             <image name="Syslogo">
                 <path>${syslogoColor}</path>
-                <pos>0.1 0.125</pos>
+                <pos>0.1 0.115</pos>
                 <origin>0.5 .5</origin>
-                <maxSize>0.175 0.25</maxSize>
+                <maxSize>0.175 0.2</maxSize>
                 <zIndex>50</zIndex>
             </image>
         </view>
@@ -656,9 +656,9 @@
         <view name="gamelist">
             <image name="Syslogo">
                 <path>${syslogo}</path>
-                <pos>0.1 0.125</pos>
+                <pos>0.1 0.115</pos>
                 <origin>0.5 .5</origin>
-                <maxSize>0.175 0.25</maxSize>
+                <maxSize>0.175 0.2</maxSize>
                 <color>${mainFontColor}aa</color>
                 <zIndex>50</zIndex>
             </image>
@@ -768,7 +768,28 @@
                 <color>${mainFontColor}</color>
                 <zIndex>15</zIndex>
             </text>
-
+           <text name="playtime2">
+                <text>Playtime:</text>
+                <metadataElement>true</metadataElement>
+                <fontPath>${secondFont}</fontPath>
+                <fontSize>0.03</fontSize>
+                <color>${mainFontColor}</color>
+                <pos>0.01 0.21</pos>
+                <origin>0 0</origin>
+            </text>
+            <text name="playtime1">
+                <metadata>playtime</metadata>
+                <fontPath>${mainFont}</fontPath>
+                <fontSize>0.0275</fontSize>
+                <color>${mainFontColor}</color>
+                <letterCase>capitalize</letterCase>
+                <horizontalAlignment>right</horizontalAlignment>
+                <defaultValue>Unplayed</defaultValue>
+                <lineSpacing>0.95</lineSpacing>
+                <pos>0.075 0.205</pos>
+                <size>0.125 0.06</size>
+                <origin>0 0</origin>
+            </text>
             <text name="publisher1">
                 <metadata>publisher</metadata>
                 <fontPath>${mainFont}</fontPath>
